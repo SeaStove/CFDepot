@@ -56,7 +56,7 @@ public class PointOfSaleUserInterface {
                     case 4:
                         userCommand = -1;
                         System.out.println("Goodbye!");
-                        break;
+                        return;
                     default:
                         System.out.println("\nOops, looks like you're out of range. Please enter a number 1 - 4.");
                         mainMenu();
