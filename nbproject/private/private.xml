@@ -5,11 +5,10 @@
         <group>
             <file>file:/C:/Users/rocho/Documents/NetBeansProjects/CFDepot/src/saleapp/CFDepot.java</file>
             <file>file:/C:/Users/rocho/Documents/NetBeansProjects/CFDepot/src/saleapp/RentalAgreement.java</file>
-            <file>file:/C:/Users/rocho/Documents/NetBeansProjects/CFDepot/src/saleapp/ToolPrice.java</file>
+            <file>file:/C:/Users/rocho/Documents/NetBeansProjects/CFDepot/test/TestCFDepot.java</file>
             <file>file:/C:/Users/rocho/Documents/NetBeansProjects/CFDepot/src/saleapp/PointOfSaleUserInterface.java</file>
-            <file>file:/C:/Users/rocho/Documents/NetBeansProjects/CFDepot/src/saleapp/Tool.java</file>
-            <file>file:/C:/Users/rocho/Documents/NetBeansProjects/CFDepot/src/saleapp/Database/ToolsDatabase.java</file>
             <file>file:/C:/Users/rocho/Documents/NetBeansProjects/CFDepot/src/saleapp/RentalCalculator.java</file>
+            <file>file:/C:/Users/rocho/Documents/NetBeansProjects/CFDepot/src/saleapp/Database/ToolsDatabase.java</file>
         </group>
     </open-files>
 </project-private>

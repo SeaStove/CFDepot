@@ -10,6 +10,7 @@ import static org.junit.Assert.*;
 import saleapp.RentalAgreement;
 import saleapp.RentalCalculator;
 import org.apache.commons.lang3.builder.EqualsBuilder;
+import saleapp.Database.ToolsDatabase;
 
 /**
  *
@@ -20,21 +21,19 @@ public class TestCFDepot {
     public TestCFDepot() {
     }
 
-//    @BeforeClass
-//    public static void setUpClass() {
-//    }
-//    
-//    @AfterClass
-//    public static void tearDownClass() {
-//    }
-//    
-//    @Before
-//    public void setUp() {
-//    }
-//    
-//    @After
-//    public void tearDown() {
-//    }
+    @BeforeClass
+    public static void setUpClass() {
+        ToolsDatabase db = new ToolsDatabase();
+        db.createDatabase();
+        db.initialUpload();
+    }
+    
+    @AfterClass
+    public static void tearDownClass() {
+        ToolsDatabase db = new ToolsDatabase();
+        db.deleteDatabase();
+    }
+
     @Test(expected = InvalidParameterException.class)
     public void pointOfSale_ThrowsInvalidParameterException_IfDiscountGreaterThanOneHundredPercent() {
         String toolCode = "JAKR";
